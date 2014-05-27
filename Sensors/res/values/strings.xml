@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensors</string>
+    <string name="title_activity_sensor_monitor">SensorMonitor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_accelerometer">No Accelerometer</string>
+    <string name="no_linear_acceleration_sensor">No Linear Acceleration Sensor</string>
+    <string name="no_location_sensor">No Location Sensor</string>
+    <string name="stop">Stop</string>
+    <string name="acceleration">Acceleration:</string>
+    <string name="linear_acceleration">Linear Acceleration:</string>
+    <string name="location">Location:</string>
+
+</resources>

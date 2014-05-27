@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/accel_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/acceleration" />
+
+    <TextView
+        android:id="@+id/accelxtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/accel_text"
+        android:padding="10dp"
+        android:text="@string/no_accelerometer"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/accelytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/accelxtext"
+        android:padding="10dp"
+        android:text="@string/no_accelerometer"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/accelztext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/accelytext"
+        android:padding="10dp"
+        android:text="@string/no_accelerometer"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/accelztext"
+        android:text="@string/linear_acceleration" />
+
+    <TextView
+        android:id="@+id/linearxtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:padding="10dp"
+        android:text="@string/no_linear_acceleration_sensor"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/linearytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearxtext"
+        android:padding="10dp"
+        android:text="@string/no_linear_acceleration_sensor"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/linearztext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearytext"
+        android:padding="10dp"
+        android:text="@string/no_linear_acceleration_sensor"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearztext"
+        android:text="@string/location" />
+
+    <TextView
+        android:id="@+id/longitudetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:padding="10dp"
+        android:text="@string/no_location_sensor"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/latitudetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/longitudetext"
+        android:padding="10dp"
+        android:text="@string/no_location_sensor"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/altitudetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/latitudetext"
+        android:padding="10dp"
+        android:text="@string/no_location_sensor"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/stop" />
+
+</RelativeLayout>
