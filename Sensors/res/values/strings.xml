@@ -12,5 +12,6 @@
     <string name="acceleration">Acceleration:</string>
     <string name="linear_acceleration">Linear Acceleration:</string>
     <string name="location">Location:</string>
+    <string name="title_stored_data_list">Stored Date List</string>
 
 </resources>
