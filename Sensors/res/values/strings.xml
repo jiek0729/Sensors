@@ -13,5 +13,8 @@
     <string name="linear_acceleration">Linear Acceleration:</string>
     <string name="location">Location:</string>
     <string name="title_stored_data_list">Stored Date List</string>
+    <string name="travel_mode_indicator">Travel mode indicator</string>
+    <string name="start_time">Start time</string>
+    <string name="activity_description">Activity description</string>
 
 </resources>
